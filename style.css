@@ -1,0 +1,144 @@
+.jumbotron {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('about.jpg');
+  padding: 110px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.col-2 {
+  width: 30%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.text-white{
+  color: white;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.mt-3{
+  margin-top: 30px;
+}
+
+.ms-3{
+  margin-left: 30px;
+}
+
+.me-3{
+  margin-right: 30px;
+}
+
+.mx-5{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.row {
+  display: flex; /* Use flexbox to create a row */
+  flex-wrap: wrap; /* Allow the row to wrap to the next line if needed */
+  margin-left: -15px; /* Negative margin to counteract the padding of the parent container */
+  margin-right: -15px; /* Negative margin to counteract the padding of the parent container */
+}
+
+/* Additional styling for child elements within the row */
+.row > * {
+  flex: 0 0 100%; /* Equal width for all child elements */
+  padding: 15px; /* Padding between child elements */
+  box-sizing: border-box; /* Include padding and border in the element's total width */
+}
+
+.btn-dark{
+  background-color: #343a40;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 30px;
+  margin-left: 75px;
+  border-radius: 5px;
+}
+
+.btn-dark:hover {
+  color: #fff;
+  background-color: #23272b;
+  border-color: #1d2124;
+  opacity: 0.7;
+}
+
+.a1{
+  text-decoration: none;
+  color: white;
+}
+
+.card {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  margin-top: 30px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-dark1 {
+  background-color: #343a40;
+  color: #ffffff;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+.btn-update {
+  background-color: #0d6efd;
+  color: white;
+  padding: 7px 14px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.btn-dark2 {
+  background-color: #343a40;
+  color: #ffffff;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 100px;
+}
